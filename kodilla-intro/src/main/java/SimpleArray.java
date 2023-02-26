@@ -8,5 +8,8 @@ public class SimpleArray {
         animals[4] = "Wolf";
         animals[5] = "Bear";
         animals[6] = "Giraffe";
+
+        String animal = animals[3];
+        System.out.println(animal);
     }
 }
