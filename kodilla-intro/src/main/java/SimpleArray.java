@@ -11,5 +11,9 @@ public class SimpleArray {
 
         String animal = animals[3];
         System.out.println(animal);
+
+        int numberOfElements = animals.length;
+
+        System.out.println("Moja tablica zawiera " + numberOfElements + " elementów.");
     }
 }
