@@ -1,12 +1,8 @@
 public class LeapYear {
     public static void main(String[] args) {
         int year = 2023;
-
-        if (year > 0 || year == 0 || year < 0) {
-            isLeapYear(year);
-        } else {
-            System.out.println("Something went wrong!");
-        }
+        boolean isLeap = isLeapYear(year);
+        System.out.println(isLeap);
     }
     public static boolean isLeapYear(int year) {
         if (year % 4 != 0) {
